@@ -5,4 +5,8 @@
 @section('content')
     @include('sections.video-banner')
     @include('sections.about-us')
+    @include('sections.value-proposal')
+    @include('sections.customer-reviews')
 @endsection
+
+

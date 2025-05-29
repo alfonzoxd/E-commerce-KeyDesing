@@ -7,6 +7,10 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 
     @yield('head')
+
+    <link href="https://fonts.googleapis.com/css2?family=Saira+Semi+Condensed&display=swap" rel="stylesheet">
+    <style>.font-tech { font-family: 'Saira Semi Condensed', sans-serif; }</style>
+
 </head>
 <body class="bg-black text-white">
 

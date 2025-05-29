@@ -11,7 +11,7 @@
 
     <div class="relative z-20 w-full h-full flex items-center justify-center pt-16">
         <h1 class="text-white text-4xl md:text-5xl font-bold bg-black/50 p-6 rounded-xl text-center">
-            KeyDesign
+            
         </h1>
     </div>
 </section>
