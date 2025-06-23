@@ -10,7 +10,12 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Saira+Semi+Condensed&display=swap" rel="stylesheet">
     <style>.font-tech { font-family: 'Saira Semi Condensed', sans-serif; }</style>
-
+    <script>
+        if ('scrollRestoration' in history) {
+            history.scrollRestoration = 'manual';
+        }
+        window.scrollTo(0, 0);
+    </script>
 </head>
 <body class="bg-black text-white">
 
