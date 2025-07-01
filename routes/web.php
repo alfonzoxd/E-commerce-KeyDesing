@@ -1,10 +1,10 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ProductController;
 
 Route::get('/', function () {
     return view('home.home');
 });
-Route::get('/products/products', function () {
-    return view('products.products');
-});
+Route::get('/products', [ProductController::class, 'index'])->name('products.index');
+
