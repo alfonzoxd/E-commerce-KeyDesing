@@ -79,7 +79,7 @@
         });
     </script>
 
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 bg-gradient-to-br from-gray-50 to-gray-100 min-h-screen">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 bg-black min-h-screen">
         <!-- Título con diseño moderno -->
         <div class="text-center mb-16">
             <h2 class="text-5xl font-black text-transparent bg-clip-text bg-gradient-to-r from-red-600 via-black to-red-600 mb-4">
@@ -170,12 +170,6 @@
             </div>
         </div>
 
-        {{-- Incluye los datos de los productos --}}
-        <?php
-            // Asegúrate de que la ruta sea correcta desde la raíz de tu proyecto Laravel
-            require_once base_path('config/productos.php');
-        ?>
-
         <!-- Grid de productos mejorado -->
         <div id="productsGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 auto-rows-fr">
             {{-- Itera sobre cada producto para crear una tarjeta --}}
@@ -186,8 +180,7 @@
                      data-rating="{{ $product['rating'] }}"
                      data-category="{{ strtolower(implode(' ', $product['category'] ?? [])) }}"
                      data-stock="{{ $product['inStock'] ? 'true' : 'false' }}"
-                     data-id="{{ $product['id'] }}"
-                >
+                     data-id="{{ $product['id'] }}">
 
                     <!-- Efecto de brillo en hover -->
                     <div class="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-700 ease-in-out"></div>
@@ -549,3 +542,5 @@
             });
         });
     </script>
+
+@endsection

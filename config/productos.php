@@ -8,7 +8,7 @@
         "price" => 280.00,
         "images" => [
             "images/ergonomicos_1.jpg",
-            "images/ergonomicos_1_2.jpg"
+            "images/ergonomicos_1.2.jpg"
         ],
         "category" => ["Ergonómicos"],
         "subcategories" => ["Teclados para movilidad reducida", "Teclados retroiluminados personalizados"],
@@ -35,7 +35,7 @@
         "price" => 195.50,
         "images" => [
             "images/ergonomicos_2.jpg",
-            "images/ergonomicos_2_2.jpg"
+            "images/ergonomicos_2.2.jpg"
         ],
         "category" => ["Ergonómicos"],
         "subcategories" => ["Teclados compactos (60%, 75%)", "Inalámbricos / Bluetooth"],
@@ -62,7 +62,7 @@
         "price" => 120.00,
         "images" => [
             "images/ergonomicos_3.jpg",
-            "images/ergonomicos_3_2.jpg"
+            "images/ergonomicos_3.2.jpg"
         ],
         "category" => ["Ergonómicos"],
         "subcategories" => ["Inalámbricos / Bluetooth", "Teclados para movilidad reducida"],
@@ -89,7 +89,7 @@
         "price" => 350.00,
         "images" => [
             "images/ergonomicos_4.jpg",
-            "images/ergonomicos_4_2.jpg"
+            "images/ergonomicos_4.2.jpg"
         ],
         "category" => ["Ergonómicos"],
         "subcategories" => ["Teclados para movilidad reducida", "Teclados silenciosos"],
@@ -116,7 +116,7 @@
         "price" => 310.00,
         "images" => [
             "images/ergonomicos_5.jpg",
-            "images/ergonomicos_5_2.jpg"
+            "images/ergonomicos_5.2.jpg"
         ],
         "category" => ["Ergonómicos", "Gaming"],
         "subcategories" => ["Teclados retroiluminados personalizados", "Teclados compactos (60%, 75%)"],
@@ -282,7 +282,7 @@
         "price" => 140.00,
         "images" => [
             "images/oficina_1.jpg",
-            "images/oficinas_1_2.jpg"
+            "images/oficina_1.2.jpg"
         ],
         "category" => ["Oficinas"],
         "subcategories" => ["Inalámbricos / Bluetooth", "Teclados silenciosos"],
@@ -309,7 +309,7 @@
         "price" => 90.00,
         "images" => [
             "images/oficina_2.jpg",
-            "images/oficinas_2_2.jpg"
+            "images/oficina_2.2.jpg"
         ],
         "category" => ["Oficinas"],
         "subcategories" => ["Teclados compactos (60%, 75%)"],
@@ -336,7 +336,7 @@
         "price" => 180.00,
         "images" => [
             "images/oficina_3.jpg",
-            "images/oficinas_3_2.jpg"
+            "images/oficina_3.2.jpg"
         ],
         "category" => ["Oficinas", "Mecánicos"],
         "subcategories" => ["Teclados retroiluminados personalizados"],
@@ -363,7 +363,7 @@
         "price" => 110.00,
         "images" => [
             "images/oficina_4.jpg",
-            "images/oficinas_4_2.jpg"
+            "images/oficina_4.2.jpg"
         ],
         "category" => ["Oficinas"],
         "subcategories" => [], // Sin subcategoría específica, es un teclado estándar de oficina
@@ -390,7 +390,7 @@
         "price" => 75.00,
         "images" => [
             "images/oficina_5.jpg",
-            "images/oficinas_5_2.jpg"
+            "images/oficina_5.2.jpg"
         ],
         "category" => ["Oficinas"],
         "subcategories" => ["Teclados silenciosos"],
@@ -967,7 +967,7 @@
         "price" => 300.00,
         "images" => [
             "images/braile_1.jpg",
-            "images/braille_1_2.jpg"
+            "images/braile_1.2.jpg"
         ],
         "category" => ["Para Braille"],
         "subcategories" => ["Teclados para movilidad reducida"],
@@ -994,7 +994,7 @@
         "price" => 450.00,
         "images" => [
             "images/braile_2.jpg",
-            "images/braille_2_2.jpg"
+            "images/braile_2.2.jpg"
         ],
         "category" => ["Para Braille"],
         "subcategories" => ["Teclados para movilidad reducida"],
@@ -1021,7 +1021,7 @@
         "price" => 900.00,
         "images" => [
             "images/braile_3.jpg",
-            "images/braille_3_2.jpg"
+            "images/braile_3.2.jpg"
         ],
         "category" => ["Para Braille"],
         "subcategories" => ["Teclados para movilidad reducida"],
@@ -1048,7 +1048,7 @@
         "price" => 380.00,
         "images" => [
             "images/braile_4.jpg",
-            "images/braille_4_2.jpg"
+            "images/braile_4.2.jpg"
         ],
         "category" => ["Para Braille"],
         "subcategories" => ["Teclados compactos (60%, 75%)", "Teclados para movilidad reducida", "Inalámbricos / Bluetooth"],
@@ -1075,7 +1075,7 @@
         "price" => 150.00,
         "images" => [
             "images/braile_5.jpg",
-            "images/braille_5_2.jpg"
+            "images/braile_5.2.jpg"
         ],
         "category" => ["Para Braille"],
         "subcategories" => ["Teclados para movilidad reducida"],
@@ -1110,10 +1110,10 @@
   ];
 
   $subcategories = [
-    ["id" => "inalambricos-bluetooth", "name" => "Inalámbricos / Bluetooth", "count" => 9], // Actualizado el conteo
-    ["id" => "teclados-compactos", "name" => "Teclados compactos (60%, 75%)", "count" => 8], // Actualizado el conteo
-    ["id" => "teclados-silenciosos", "name" => "Teclados silenciosos", "count" => 7], // Actualizado el conteo
-    ["id" => "teclados-retroiluminados-personalizados", "name" => "Teclados retroiluminados personalizados", "count" => 10], // Actualizado el conteo
-    ["id" => "teclados-para-movilidad-reducida", "name" => "Teclados para movilidad reducida", "count" => 12] // Actualizado el conteo
+    ["id" => "inalambricos-bluetooth", "name" => "Inalámbricos / Bluetooth", "count" => 9],
+    ["id" => "teclados-compactos", "name" => "Teclados compactos (60%, 75%)", "count" => 8],
+    ["id" => "teclados-silenciosos", "name" => "Teclados silenciosos", "count" => 7],
+    ["id" => "teclados-retroiluminados-personalizados", "name" => "Teclados retroiluminados personalizados", "count" => 10],
+    ["id" => "teclados-para-movilidad-reducida", "name" => "Teclados para movilidad reducida", "count" => 12]
   ];
 ?>
