@@ -36,7 +36,6 @@ class ProductController extends Controller
             return view('errors.product-not-found');
         }
 
-        // Aquí puedes manejar la lógica del pago y pasar el producto a la vista
-        return view('products/checkout', compact('product')); // Cambia 'payment' por el nombre de tu vista
+        return view('products/checkout', compact('product'));
     }
 }

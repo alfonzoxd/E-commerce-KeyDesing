@@ -22,9 +22,9 @@
     <div>
       <h4 class="text-xl font-semibold text-white mb-4">Síguenos</h4>
       <ul class="space-y-2 text-sm">
-        <li><a href="#" class="hover:text-white transition">TikTok</a></li>
-        <li><a href="#" class="hover:text-white transition">Instagram</a></li>
-        <li><a href="#" class="hover:text-white transition">Facebook</a></li>
+        <li><a href="https://www.tiktok.com/@keyd.esing" class="hover:text-white transition">TikTok</a></li>
+        <li><a href="https://www.instagram.com/keyd.esing/" target="_blank" rel="noopener noreferrer" class="hover:text-white transition">Instagram</a></li>
+        <li><a href="https://www.facebook.com/share/1DwHgdSdkB/" target="_blank" rel="noopener noreferrer" class="hover:text-white transition">Facebook</a></li>
         <li><a href="#" class="hover:text-white transition">X (Twitter)</a></li>
       </ul>
     </div>

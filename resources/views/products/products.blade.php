@@ -82,7 +82,7 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 bg-black min-h-screen">
         <!-- Título con diseño moderno -->
         <div class="text-center mb-16">
-            <h2 class="text-5xl font-black text-transparent bg-clip-text bg-gradient-to-r from-red-600 via-black to-red-600 mb-4">
+            <h2 class="text-5xl font-black text-transparent bg-clip-text bg-gradient-to-r from-red-600 red-400 to-red-600 mb-4">
                 Nuestros Teclados
             </h2>
             <div class="w-24 h-1 bg-gradient-to-r from-red-500 to-black mx-auto rounded-full"></div>
@@ -347,6 +347,9 @@
         .product-image-main,
         .product-image-hover {
             transition: all 0.5s ease-in-out;
+        }
+        .product-card {
+            box-shadow: 0 0 0 2px #ff0d00; /* Aquí puedes poner el color de borde rojo que prefieras */
         }
     </style>
 

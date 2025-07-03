@@ -693,7 +693,7 @@
         "price" => 130.00,
         "images" => [
             "images/daltonicos_1.jpg",
-            "images/daltonicos_1_2.jpg"
+            "images/daltonicos_1.2.jpg"
         ],
         "category" => ["Para daltónicos"],
         "subcategories" => ["Teclados retroiluminados personalizados", "Teclados para movilidad reducida"],
@@ -720,7 +720,7 @@
         "price" => 110.00,
         "images" => [
             "images/daltonicos_2.jpg",
-            "images/daltonicos_2_2.jpg"
+            "images/daltonicos_2.2.jpg"
         ],
         "category" => ["Para daltónicos"],
         "subcategories" => ["Teclados para movilidad reducida"],
@@ -747,7 +747,7 @@
         "price" => 150.00,
         "images" => [
             "images/daltonicos_3.jpg",
-            "images/daltonicos_3_2.jpg"
+            "images/daltonicos_3.2.jpg"
         ],
         "category" => ["Para daltónicos"],
         "subcategories" => ["Teclados retroiluminados personalizados"],
@@ -774,7 +774,7 @@
         "price" => 170.00,
         "images" => [
             "images/daltonicos_4.jpg",
-            "images/daltonicos_4_2.jpg"
+            "images/daltonicos_4.2.jpg"
         ],
         "category" => ["Para daltónicos"],
         "subcategories" => ["Teclados para movilidad reducida", "Teclados retroiluminados personalizados"],
@@ -801,7 +801,7 @@
         "price" => 220.00,
         "images" => [
             "images/daltonicos_5.jpg",
-            "images/daltonicos_5_2.jpg"
+            "images/daltonicos_5.2.jpg"
         ],
         "category" => ["Para daltónicos", "Ergonómicos"],
         "subcategories" => ["Teclados para movilidad reducida", "Teclados silenciosos"],
@@ -830,7 +830,7 @@
         "price" => 90.00,
         "images" => [
             "images/bajavision_1.jpg",
-            "images/bajavision_1_2.jpg"
+            "images/bajavision_1.2.jpg"
         ],
         "category" => ["Para baja visión"],
         "subcategories" => ["Teclados para movilidad reducida"],
@@ -857,7 +857,7 @@
         "price" => 140.00,
         "images" => [
             "images/bajavision_2.jpg",
-            "images/bajavision_2_2.jpg"
+            "images/bajavision_2.2.jpg"
         ],
         "category" => ["Para baja visión"],
         "subcategories" => ["Teclados retroiluminados personalizados", "Teclados para movilidad reducida"],
@@ -884,7 +884,7 @@
         "price" => 120.00,
         "images" => [
             "images/bajavision_3.jpg",
-            "images/bajavision_3_2.jpg"
+            "images/bajavision_3.2.jpg"
         ],
         "category" => ["Para baja visión"],
         "subcategories" => ["Inalámbricos / Bluetooth", "Teclados para movilidad reducida"],
@@ -911,7 +911,7 @@
         "price" => 180.00,
         "images" => [
             "images/bajavision_4.jpg",
-            "images/bajavision_4_2.jpg"
+            "images/bajavision_4.2.jpg"
         ],
         "category" => ["Para baja visión", "Ergonómicos"],
         "subcategories" => ["Teclados para movilidad reducida"],
@@ -938,7 +938,7 @@
         "price" => 250.00,
         "images" => [
             "images/bajavision_5.jpg",
-            "images/bajavision_5_2.jpg"
+            "images/bajavision_5.2.jpg"
         ],
         "category" => ["Para baja visión", "Mecánicos"],
         "subcategories" => ["Teclados retroiluminados personalizados", "Teclados para movilidad reducida"],
