@@ -29,6 +29,24 @@
                 >
                     <source src="{{ asset('videos/banner2.mp4') }}" type="video/mp4">
                 </video>
+                <video
+                    autoplay
+                    muted
+                    loop
+                    playsinline
+                    class="w-full h-[400px] object-cover flex-shrink-0"
+                >
+                    <source src="{{ asset('videos/banner3.mp4') }}" type="video/mp4">
+                </video>
+                <video
+                    autoplay
+                    muted
+                    loop
+                    playsinline
+                    class="w-full h-[400px] object-cover flex-shrink-0"
+                >
+                    <source src="{{ asset('videos/banner5.mp4') }}" type="video/mp4">
+                </video>
             </div>
             <button id="prevBtn"
                 class="absolute left-2 top-1/2 -translate-y-1/2 bg-black/30 hover:bg-black/60 text-white text-sm px-2 py-1 rounded-full opacity-0 group-hover:opacity-80 transition z-20">
@@ -45,7 +63,7 @@
     <script>
         document.addEventListener('DOMContentLoaded', function () {
             const slider = document.getElementById('videoSlider');
-            const totalSlides = 2;
+            const totalSlides = 4
             let currentIndex = 0;
 
             const updateSlide = () => {
@@ -221,12 +239,6 @@
                             @endif
                         </div>
 
-                        <!-- Botón de vista rápida (aparece en hover) -->
-                        <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10">
-                            <button class="bg-white/90 hover:bg-white text-gray-800 font-semibold py-2 px-4 rounded-full shadow-lg backdrop-blur-sm transform scale-90 group-hover:scale-100 transition-transform duration-200">
-                                Vista Rápida
-                            </button>
-                        </div>
                     </div>
 
                     <!-- Contenido de la tarjeta -->

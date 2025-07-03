@@ -30,7 +30,7 @@
         </p>
 
         <div class="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
-            <a href="">
+            <a href="{{ route ('products.index') }}" class="inline-flex items-center justify-center">
                 <button class="bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white px-8 py-4 text-lg font-semibold transition-all duration-300 transform hover:scale-105 rounded-lg">
                     Explorar Productos
                 </button>
